@@ -15,5 +15,6 @@
       "other": "off"
     },
     "editor.minimap.enabled": false
-  }
+  },
+  "eslint.validate": ["json"]
 }
