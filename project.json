@@ -16,6 +16,12 @@
     "releaseTagPattern": "{version}",
     "version": {
       "conventionalCommits": true
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "file": false,
+        "createRelease": "github"
+      }
     }
   }
 }
