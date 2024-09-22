@@ -10,5 +10,12 @@
         "storage": "tmp/local-registry/storage"
       }
     }
+  },
+  "release": {
+    "projects": ["packages/*"],
+    "releaseTagPattern": "{version}",
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }

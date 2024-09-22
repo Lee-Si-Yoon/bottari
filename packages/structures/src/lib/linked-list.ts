@@ -1,15 +1,12 @@
 class Node<T> {
-  constructor(
-    public value: T,
-    public next: Node<T> | undefined = undefined,
-  ) {}
+  constructor(public value: T, public next: Node<T> | undefined = undefined) {}
 }
 
 export class LinkedList<T> {
   constructor(
     private head: Node<T> | undefined = undefined,
     private tail: Node<T> | undefined = undefined,
-    private _size = 0,
+    private _size = 0
   ) {}
 
   public get size(): number {
@@ -35,6 +32,7 @@ export class LinkedList<T> {
   get: (index: number) => T | undefined = (index: number) => {
     const node = this.getNodeAtIndex(index);
     if (node) return node.value;
+    return;
   };
 
   // O(n)

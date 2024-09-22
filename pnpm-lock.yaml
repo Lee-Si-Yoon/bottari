@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fxts/core':
+        specifier: ^1.0.1
+        version: 1.0.1
       '@mdx-js/loader':
         specifier: ^3.0.1
         version: 3.0.1(webpack@5.94.0(@swc/core@1.5.29(@swc/helpers@0.5.13))(webpack-cli@5.1.4))
@@ -1089,6 +1092,9 @@ packages:
   '@eslint/plugin-kit@0.2.0':
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fxts/core@1.0.1':
+    resolution: {integrity: sha512-9CMlucAk0uemu2FM3g/WAcyHjpj5gB0lQj0MFMS39oKHrMWfqg9wQKBbSxgPQ4Nz/fb2JOJSmiEKRUEKh3UV+Q==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -9051,6 +9057,10 @@ snapshots:
   '@eslint/plugin-kit@0.2.0':
     dependencies:
       levn: 0.4.1
+
+  '@fxts/core@1.0.1':
+    dependencies:
+      tslib: 2.7.0
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
