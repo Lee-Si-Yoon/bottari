@@ -3,7 +3,7 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, '../../dist/apps/webpack-app'),
+    path: join(__dirname, '../../dist/apps/3js'),
   },
   devServer: {
     port: 4200,
